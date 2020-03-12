@@ -7,5 +7,6 @@ The current version of the extensions are only compatible with the 3.1.1 Ed-Fi C
 
 For more information on how to implement extensions using metaed refer to the following documentation on the Ed-Fi Tech Docs website:
 
-http://www.example.com or <http://www.example.com> and sometimes 
+MetaEd IDE User Guide https://techdocs.ed-fi.org/display/METAED20/MetaEd+IDE+User+Guide
+or <http://www.example.com> and sometimes 
 example.com (but not on Github, for example).
