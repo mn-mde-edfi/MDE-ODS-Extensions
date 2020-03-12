@@ -1,0 +1,10 @@
+Domain Entity EdFi.Calendar additions
+    integer InstructionalDays
+        documentation "The total number of Instructional days during the current school year."
+        is optional
+    descriptor KindergartenSchedule
+        documentation "Kindergarten Schedule"
+        is optional
+    integer LengthOfDay
+        documentation "Length of Day."
+        is optional
