@@ -3,7 +3,7 @@ Repository containing Minnesota Department of Education's Ed-Fi ODS data collect
 
 The files contained in this repo are available to MN school districts or vendors partnering with those districts who have interest in deploying a district based Ed-Fi ODS and API.  The extensions are available in the form of .metaed files which are compatible with MetaEd version 2.0.0.
 
-The current version of the extensions are only compatible with the **3.1.1 Ed-Fi Codebase**, and currently only support data collection for MARSS, SSDC, and Ancestry of Ethic Origin for **School Year 2019-2020**.
+The current version of the extensions are only compatible with the **3.1.1 Ed-Fi Codebase**, and currently only support data collection for MARSS, SSDC, and Ancestry of Ethnic Origin for **School Year 2019-2020**.
 
 For more information on implementing extensions using metaed refer to the following documentation on the Ed-Fi Tech Docs website:
 
