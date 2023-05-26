@@ -1,0 +1,14 @@
+Association StudentEarlyEducationProgramAssociation based on EdFi.GeneralStudentProgramAssociation
+    documentation "This association represents Students in an Early Education Program."
+    common FundingSource
+        documentation "Funding source."
+        is optional collection
+    common Membership
+        documentation "Entity containing Attendance Days or Hours, Membership Days or Hours, Percent Enrolled and flag indicated whether reported Membership and Attendance includes Days or Hours."
+        is optional collection
+    descriptor ProgramSection
+        documentation "Descriptor of the program section."
+        is optional
+    domain entity EdFi.Calendar
+        documentation "A reference to the student's calendar."
+        is optional

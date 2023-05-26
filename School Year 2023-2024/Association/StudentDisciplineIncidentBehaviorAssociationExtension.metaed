@@ -1,0 +1,22 @@
+Association EdFi.StudentDisciplineIncidentBehaviorAssociation additions
+    descriptor SecondaryBehavior
+        documentation "Indicates the type of offense done by an individual."
+        is optional
+    descriptor BullyingHarassmentType
+        documentation "Indicates the form or the basis of bullying harassment behavior done by an individual."
+        is optional collection
+    common WeaponAttribute
+        documentation "Describes the weapon/s associated with an incident."
+        is optional collection
+    common DrugInformation
+        documentation "Indicates the drug type associated with an incident."
+        is optional collection
+    bool WasReferredLawEnforcement
+        documentation "Indicator if the offender was referred to law enforcement."
+        is optional
+    bool WasArrestedLawEnforcement
+        documentation "Indicator if the offender was arrested by law enforcement."
+        is optional
+    bool WasUnderCurrentSuspension
+        documentation "Indicator of where the offender was under a current suspension at the time of incident."
+        is optional

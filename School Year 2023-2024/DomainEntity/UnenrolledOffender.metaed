@@ -1,0 +1,17 @@
+Domain Entity UnenrolledOffender
+      documentation "This entity contains attributes about any student offender who is not currently involved in the school where the incident occurred."
+      domain entity EdFi.DisciplineIncident
+        documentation "StudentDisciplineIncident realated to the unenrolled student offender."
+        is part of identity
+      integer UnenrolledStudentCount
+        documentation "Number of unenrolled student offender."
+        is required
+      descriptor EdFi.Behavior
+        documentation "Describes the behavior in the discipline incident."
+        is optional
+      descriptor SecondaryBehavior
+        documentation "This describes the type of offense committed."
+        is optional
+      common WeaponAttribute
+        documentation "Describes the weapon associated with the StudentDisciplineIncidentBehaviorAssociation."
+        is optional

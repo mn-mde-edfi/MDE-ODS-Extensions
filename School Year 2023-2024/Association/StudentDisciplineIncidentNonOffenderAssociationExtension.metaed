@@ -1,0 +1,10 @@
+Association EdFi.StudentDisciplineIncidentNonOffenderAssociation additions
+    descriptor CostToVictim
+        documentation "Describes the cost to the victim incurred by an incident."
+        is optional
+    bool DidInjuryOccur
+        documentation "Indicator whether an injury occurred related to an incident."
+        is optional
+    bool DidSeriousBodilyInjuryOccur
+        documentation "Indicator whether an injury that occured related to an incident was a serious bodily injury."
+        is optional

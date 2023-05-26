@@ -1,0 +1,10 @@
+Common DrugInformation
+    documentation "Indicates the drug type associated with an incident."
+    descriptor DrugType
+        documentation "Indicates the drug type associated with an incident."
+        is part of identity
+    string DrugTypeOtherDescription
+        documentation "Description for other drug type not found in DrugType."
+        is optional
+        min length 1
+        max length 1024

@@ -1,0 +1,2 @@
+Descriptor TimeOfIncident
+    documentation "The window of time when the discipline incident happened."

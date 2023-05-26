@@ -1,0 +1,29 @@
+Domain Entity DisciplineIncidentAnonymousNonOffender
+      documentation "Information on an anonymous victim involved in the Discipline Incident."
+          domain entity EdFi.DisciplineIncident
+          documentation "Discipline Incident reference."
+          is part of identity
+      descriptor NonOffenderType
+          documentation "Identifies the type of victim involved."
+          is optional
+      integer NonOffenderCount
+          documentation "Count of victims if there were multiple involved."
+          is optional
+      integer EstimatedStudentsEnrolled
+          documentation "Number of nonoffenders that were enrolled in the school."
+          is optional
+      integer EstimatedStudentsNotEnrolled
+          documentation "Number of nonoffenders that were not enrolled in the school."
+          is optional
+      bool DidInjuryOccur
+          documentation "Was the victim injured?"
+          is required
+      bool DidSeriousBodilyInjuryOccur
+          documentation "Did the victim face serious bodily injury?"
+          is optional
+      descriptor CostToVictim
+          documentation "Cost incurred to victim after the incident."
+          is required
+      bool PhysicalAssaultState
+          documentation "Is repoting this incident a requirement to report assault of a district employee?"
+          is optional

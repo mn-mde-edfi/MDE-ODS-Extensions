@@ -1,0 +1,7 @@
+Domain Entity EdFi.DisciplineIncident additions
+    descriptor TimeOfIncident
+        documentation "Time of incident."
+        is optional
+    descriptor CostToProperty
+        documentation "Describes the cost to school incurred by this event."
+        is optional

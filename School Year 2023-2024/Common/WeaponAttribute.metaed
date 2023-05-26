@@ -1,0 +1,22 @@
+Common WeaponAttribute
+    documentation "The set of elements that describes the weapon/s associated with an incident."
+    string WeaponIdentifier
+        documentation "The unique identifier assigned to a weapon entry."
+        is part of identity
+        min length 1
+        max length 20
+    descriptor EdFi.Weapon
+        documentation "Defines the type of weapon used in an incident."
+        is required
+    integer NumberOfWeaponsInvolved
+        documentation "The number of weapons involved."
+        is required
+    bool IsGunCased
+        documentation "Indicator whether the gun was cased."
+        is optional
+    bool IsGunInTrunk
+        documentation "Indicator whether the gun was in the trunk."
+        is optional
+    bool IsGunLoaded
+        documentation "Indicator whether the gun was loaded."
+        is optional
