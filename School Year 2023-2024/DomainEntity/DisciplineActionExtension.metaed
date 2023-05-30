@@ -1,0 +1,14 @@
+Domain Entity EdFi.DisciplineAction additions
+    descriptor AesType
+        documentation "The type of alternative to external suspension given to a student involved in a discipline incident."
+        is optional
+    string NoServicesExplanation
+        documentation "An explanation if AesType is No Service Provided."
+        is optional
+        min length 1
+        max length 1024
+    string Explanation
+        documentation "An explanation if discipline action is No School Response or Other."
+        is optional
+        min length 1
+        max length 1024

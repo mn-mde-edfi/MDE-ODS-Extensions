@@ -1,0 +1,11 @@
+Domain Entity SchoolAttribute
+    documentation "This entity contains additional attributes about schools but cannot be added directly to the school entity extension due to MN use-case."
+    domain entity EdFi.School
+        documentation "School reference"
+        is part of identity
+    common EdFi.EducationOrganizationIndicator
+        documentation "An indicator or metric of an Education Organization."
+        is optional collection
+    descriptor EdFi.TitleIPartASchoolDesignation
+        documentation "Denotes the Title I Part A designation for the school."
+        is optional

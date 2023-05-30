@@ -1,0 +1,27 @@
+Domain Entity SchoolDisciplineAttribute
+    documentation "The discipline attributes of a school."
+    domain entity EdFi.School
+        documentation "The school that has the attributes."
+        is part of identity
+    bool HasDrugEducation
+        documentation "Indicator that the school has a drug education program in place."
+        is required
+    bool HasAntiBullyingPolicy
+        documentation "Indicator that the school enforces an anti-bullying policy."
+        is required
+    bool HasAntiViolencePolicy
+        documentation "Indicator that the school enforces an anti-violence policy."
+        is required
+    bool HasCrisisPlan
+        documentation "Indicator that the school has a crisis plan in place."
+        is required
+    bool HasSafetyPlan
+        documentation "Indicator that the school has a safety plan in place."
+        is required
+    string SafetySpecialistEmail
+        documentation "The email address of the school safety specialist at the school."
+        is required
+        max length 75
+    bool HasZeroTolerancePolicy
+        documentation "Indicator that the school enforces a zero tolerance policy."
+        is required

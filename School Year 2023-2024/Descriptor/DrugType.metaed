@@ -1,0 +1,2 @@
+Descriptor DrugType
+    documentation "This indicates the drug type associated with an incident."

@@ -1,0 +1,36 @@
+Domain Entity SchoolAttribute
+    documentation "This entity contains additional attributes about schools but cannot be added directly to the school entity extension due to MN use-case."
+    domain entity EdFi.School
+        documentation "School reference"
+        is part of identity
+    common EdFi.EducationOrganizationIndicator
+        documentation "An indicator or metric of an Education Organization."
+        is optional collection
+    descriptor EdFi.TitleIPartASchoolDesignation
+        documentation "Denotes the Title I Part A designation for the school."
+        is optional
+    bool HasAntiBullyingPolicy
+        documentation "Indicator that the school enforces an anti-bullying policy."
+        is optional
+    bool HasAntiViolencePolicy
+        documentation "Indicator that the school enforces an anti-violence policy."
+        is optional
+    bool HasDrugEducation
+        documentation "Indicator that the school has a drug education program in place."
+        is optional
+    bool HasCrisisPlan
+        documentation "Indicator that the school has a crisis plan in place."
+        is optional
+    bool HasSafetyPlan
+        documentation "Indicator that the school has a safety plan in place."
+        is optional
+    bool HasZeroTolerancePolicy
+        documentation "Indicator that the school enforces a zero tolerance policy."
+        is optional
+    integer NumberOfHabitualTruants
+        documentation "The number of students in the school who are habitual truants."
+        is optional
+    string SafetySpecialistEmail
+        documentation "The email address of the school safety specialist at the school."
+        is optional
+        max length 75

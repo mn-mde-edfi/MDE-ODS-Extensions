@@ -1,0 +1,6 @@
+Association EdFi.StudentLanguageInstructionProgramAssociation additions
+    string LanguageInstructionProgramServiceOtherDescription
+        documentation "Field to capture what a description for when they select Other in the LanguageInstructionProgramServiceDescriptor."
+        is optional
+        max length 75
+        
